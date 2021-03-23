@@ -22,7 +22,7 @@ user:
   pic: /assets/img/head.png
   picAlt: "catbook"
   job: NO 996
-  aboutme: true # comment this out if you don't need the 'about' page.
+  aboutme: false # comment this out if you don't need the 'about' page.
 
 exclude:
   - README.md
