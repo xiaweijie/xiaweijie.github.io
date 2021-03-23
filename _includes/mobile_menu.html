@@ -11,7 +11,11 @@
     {% capture cat_name %}{{ category | first }}{% endcapture %}
 
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }} ({{ category | last | size }})</a>
+      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">
+        <strong>
+          {{ cat_name }} ({{ category | last | size }})
+        </strong>
+      </a>
     </li>
     {% endfor %}
   </ul>
